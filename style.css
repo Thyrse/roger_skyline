@@ -1,0 +1,365 @@
+* {
+	margin: 0;
+	font-family: sans-serif, Arial;
+}
+body {
+	margin: auto;
+	background-color: #fafafa;
+}
+p {
+	margin: 15px 0;
+}
+header {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+header > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+header > div .logo {
+	margin-right: 20px;
+}
+.assembly {
+	background-color: #A061D1;
+}
+.federation {
+	background-color: #4180DB;
+}
+.order {
+	background-color: #FF6950;
+}
+.alliance {
+	background-color: #33c47f;
+}
+.basic_body {
+	background-image: url(images/42-monolythe-repeat-3.gif);
+}
+.assembly_body {
+	background-image: url(images/assembly_background.jpg);
+}
+.federation_body {
+	background-image: url(images/federation_background.jpg);
+}
+.order_body {
+	background-image: url(images/order_background.jpg);
+}
+.alliance_body {
+	background-image: url(images/alliance_background.jpg);
+}
+:-webkit-any-link {
+	color: unset;
+}
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 30px;
+}
+footer {
+	padding: 15px 0px;
+	text-align: center;
+}
+aside {
+	float: right;
+	width: 30%;
+	padding: 35px 30px 15px 0px;
+	display: block;
+}
+ul {
+	list-style: outside none none;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+aside ul {
+	min-height: 35px;
+	padding: 0px;
+}
+figcaption {
+	display: block;
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+.large {
+	max-width: 60%;
+}
+#form {
+	border: 3px solid #BAB8B8;
+	background-color: rgba(255, 255, 255, 0.6);
+	font-size: 0.8em;
+	line-height: 30px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.margin {
+	float: left;
+	padding-top: 50px;
+	padding-left: 145px;
+}
+.together {
+	float: left;
+	text-transform:  uppercase;
+	margin: 15px 0 0 10px;
+	font-size: 1.2em;
+	color: white;
+}
+.clear {
+	  clear: both;
+}
+.main {
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-color: #EDF2F8;
+    box-shadow: 1px 1px 10px #fff;
+    margin: 0;
+	padding: 15px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	width: 950px;
+	margin: auto;
+	clear: both;
+}
+.logo {
+	height: 70px;
+	width: 70px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.display {
+	display: inline-block;
+	list-style: none;
+	color: #FFFFFF;
+	background-color: #000000;
+	display: inline;
+	padding: 10px;
+	background-color: #333;
+	color: #FFFFFF;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin: 0px;
+	border-radius: 5px;
+}
+.chiffres {
+	padding: 50px 0px 0px;
+	border: 0px none;
+	font: inherit;
+	vertical-align: baseline;
+	float: right;
+	border-radius: 10px;
+	margin: 0px 30px 0px 0px;
+}
+.current_page {
+	float: left;
+	font-size: 1.8em;
+	padding: 35px 0px 0px 50px;
+}
+.width {
+	width: 65%;
+}
+.points_count {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 0.8em;
+	margin-bottom: 30px;
+}
+#items {
+	display: flex;
+	clear: both;
+	background-color: #fafafa;
+	padding: 20px;
+}
+.line {
+	line-height: 25px;
+}
+.top {
+	margin-top: 10px;
+	max-width: 99%;
+	margin-bottom: 15px;
+}
+.message_group {
+	font-size: 17px;
+	padding: 35px 0px 0px 50px;
+}
+.information {
+	margin: 10px 0;
+	font-weight: bold;
+	font-size: 17px;
+}
+.causes {
+	max-width: 159px;
+	float: left;
+	font-size: 0.8em;
+	line-height: 20px;
+	font-size: 0.8em;
+	color: #666666;
+	line-height: 20px;
+}
+.bordure {
+	border-left: 1px dotted #000000;
+	border-right: 1px dotted #000000;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 0.8em;
+}
+.date {
+	margin: 10px 0;
+	background-image: url(images/clock.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0.6em;
+	padding-left: 25px;
+	color: #666666;
+	font-size: 0.9em;
+	clear: both;
+	padding-top: 10px;
+}
+.plastique {
+	font-size: 17px;
+	padding: 0px 0px 50px 50px;
+}
+#news {
+	text-align: center;
+	padding: 15px 0px;
+	font-size: 1.3em;
+	font-family: "Trebuchet MS",sans-serif;
+	text-transform: uppercase;
+}
+.lab {
+	width: 200px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.valid {
+	width: auto;
+	font-weight: bold;
+	margin: 15px auto;
+	padding: 5px;
+	border: medium none;
+	box-shadow: 0px 2px 5px #000000;
+	border-radius: 25px;
+}
+aside .lab {
+	margin: 30px 0;
+	font-size: 0.8em;
+	color: #666666;
+}
+#stat .lab {
+	width: 200px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#stat {
+	background-color: #d4d0e9;
+	margin-top: 20px;
+	padding: 10px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+#stat h2 {
+	text-align: center;
+	padding: 15px 0;
+}
+
+#stat label, #stat input {
+	display: block;
+	margin-left: 10px;
+
+}
+#rtext {
+	line-height: 20px;
+	font-size: 0.8em;
+	color: #666666;
+	width: 270px;
+}
+#stat .lab {
+	width: 200px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#stat input {
+	margin-bottom: 10px;
+	width: 235px;
+}
+#stat .valid {
+	width: auto;
+	font-weight: bold;
+	margin: 15px auto; 
+	padding: 5px;
+	border: none;
+	box-shadow: 0px 2px 5px black;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+}
+#form ul {
+	font-size: 0.8em;
+}
+#items > figure a {
+	color: unset;
+}
+#sac, #megot, #coton, #bouteille, #parasol{
+	margin: 0px;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.alliance_points li {
+	background-image: url(images/fish_ol.png);
+	background-size: 20px;
+	background: no-repeat;
+	background-position: right;
+	display: flex;
+	padding: 7px;
+	border-bottom: 1px solid #BAB8B8;
+	font-size: 12px;
+	justify-content: space-between
+}
+.dessins {
+	float: right;
+	background-repeat: no-repeat;
+	background-size: 20px auto;
+	background-position: right center;
+	padding-right: 40px;
+	margin-right: 15px;
+}
+#items > figure {
+    margin: auto;
+    display: inline-block;
+    width: 80px;
+    font-size: 0.7em;
+    padding: 10px;
+	color: #FFF;
+	text-align: center;
+}
+.alliance_color {
+	color: #33c47f;
+}
+.order_color {
+	color: #ff6950;
+}
+.assembly_color {
+	color: #a061d0;
+}
+.federation_color {
+	color: #4080db;
+}
