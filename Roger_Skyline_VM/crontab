@@ -14,5 +14,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
 0 4 * * 1 root /home/thyrse/update_log.sh
 @reboot root /home/thyrse/update_log.sh
-0 1 * * * root /etc/scripts/diffscript.sh
+0 0 * * * root /etc/scripts/diffscript.sh
+@reboot root iptables-restore < /etc/iptables/rules.v5
 #
